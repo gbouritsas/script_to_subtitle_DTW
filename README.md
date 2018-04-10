@@ -12,7 +12,7 @@ To run this code you will need:
 2. the script file (named *\*_for_parsing.txt*),
 3.  the *\*_word_ids.mat* file, which assigns a word id to character offsets starting from the beginning of the script file. This file can be obtained by running the coreNLP tokenizer on the script file (this can be done through the text processing pipeline of [1]: https://github.com/gbouritsas/cvpr18_multimodal_weakly_supervised_learning/tree/master/text_processing)
 
-Place the above files in a common folder. You will need to declare the name of the folder for each movie by modifying the global variables movies_folder and movies. The path for the files 2 and 3 regarding the movie i is defined as follows: *$movies_foler/$movies{i}/results_script/*, while the path for the file 1 regading the movie should be: *$movies_foler/$movies{i}/*. For example, for the movies used in [1] you should run:
+Place the above files in a common folder. You will need to declare the name of the folder for each movie by modifying the global variables movies_folder and movies. The path for the files 2 and 3 regarding the movie *i* is defined as follows: *$movies_foler/$movies{i}/results_script/*, while the path for the file 1 regading the movie *i* should be: *$movies_foler/$movies{i}/*. For example, for the movies used in [1] you should run:
 ```
 global movies_folder;
 movies_folder='/Users/giorgosmpouritsas/Documents/movies/';
