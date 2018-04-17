@@ -29,7 +29,7 @@ fps=24.9997500025000 * ones(length(movies));
 align_subs_script_all(movies ,1, fps);
 ```
 
-You can find more details regarding the code in the README provided by Dr. Laptev (README_Laptev.txt). Exemplar data can be found in: .
+You can find more details regarding the code in the README provided by Dr. Laptev (README_Laptev.txt). Example data can be found at http://cvsp.cs.ntua.gr/research/multimodal_weakly_supervised_learning/ under the folder *scirpt_to_subtitle_DTW_example_data/* .
 
 License
 =====================================
